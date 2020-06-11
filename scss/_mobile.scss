@@ -56,7 +56,14 @@
 
 // Smartphones
 @include mediaSm {
-  main#home h1 {
+  main {
+    &#home h1,
+    &#about h1 {
+      margin-top: 10vh;
+      font-size: 4rem;
+    }
+  }
+  main h1 {
     margin-top: 10vh;
     font-size: 4rem;
   }
